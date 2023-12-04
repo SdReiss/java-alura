@@ -16,7 +16,7 @@ public class Main {
                         """ + releaseYear;
         System.out.println(synopsis);
 
-        int classification = (int) (averageRating / 2);
-        System.out.println(classification);
+        int score = (int) (averageRating / 2);
+        System.out.println(score);
     }
 }
